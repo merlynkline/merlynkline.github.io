@@ -1,4 +1,4 @@
-# Code Review
+# Good code has been reviewed
 
 Code review is critical to our success at writing good code but it is an expensive process because it consumes significant resources. It is therefore very important that we understand the goals of code review and how best to achieve them.
 
