@@ -39,7 +39,7 @@ Having prepared your code, creating a code review is just a matter of writing a 
 
 Once a properly prepared review has been created, it must be reviewed. When reviewing code you will need to consider whether it meets the specific requirements of your team and organisation in order to make valuable comments. If you do make a comment, it should be couched in language that is respectful and helpful, and you should provide supporting information and explain your reasoning. Some common important considerations include:
 
-* Maintainability. If you can't immediately understand a change then it might not be easy to maintain in the future. Remember that broken code which is maintainable can easily be fixed but working code that is not maintainable will be expensive to fix when it inevitably goes wrong; this makes maintainability more important than correctness.
+* Maintainability. If you can't immediately understand a change then it might not be easy to maintain in the future. Remember that broken code which is maintainable can easily be fixed but working code that is not maintainable will be expensive to fix when it inevitably goes wrong; this makes [maintainability more important than correctness](GoodCodeIsBroken).
 * Code design. Are responsibilities in the right places in the code? Are abstractions at the right level? Are [SOLID](https://en.wikipedia.org/wiki/SOLID) practices being followed? Are recognisable patterns being used?
 * Acceptability. Will the solution be acceptable to the users?
 * Correctness. Are there flaws in the implementation? These might include edge cases not being catered for, inadequate validation, logic flaws, etc.
@@ -48,7 +48,7 @@ Once a properly prepared review has been created, it must be reviewed. When revi
 * Nagging doubts. Don't ignore them! If you have any doubts at all, consult the author.
 * Dependencies. Are there new external dependencies being introduced? How will these be satisfied?
 * Duplication. Almost any duplication of logic should be considered problematical if the code itself doesn't make the necessity for duplication immediately and intrinsically clear. Watch out for new code that duplicates existing code.
-* Comments. I don't like comments except in very special cases. That's a subject for another article. If you agree, code reviews should be looking out for them.
+* Comments. I don't like comments except in very special cases. That's a subject for [another article](GoodCodeHasNoComments). If you agree, code reviews should be looking out for them.
 * NFRs (or CFRs). Does the code meet your team's and organisations's non-functional (or cross-functional, if you prefer) requirements? These might include security, privacy, performance, compliance, testing, etc.
 * Text. For a lot of projects, there should be no literal text in the code that would ever become visible to the user.
 * Common pitfalls. Every project has its own collection of these.
