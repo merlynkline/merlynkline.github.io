@@ -70,9 +70,9 @@ Although code reviews are expensive, careful preparation and thoughtful comments
 Merlyn Kline  
 February 2020
 
-<small><small>
+---
 
-References:
+References
 
 * For more about code review at Microsoft see
   * [Characteristics of Useful Code Reviews: An Empirical Study at Microsoft](https://www.michaelagreiler.com/wp-content/uploads/2019/02/Characteristics-Of-Useful-Comments.pdf)
@@ -82,5 +82,3 @@ How the Current Code Review Best Practice Slows Us Down](https://www.microsoft.c
 Challenges and Best Practices](https://www.michaelagreiler.com/wp-content/uploads/2019/03/Code-Reviewing-in-the-Trenches-Understanding-Challenges-Best-Practices-and-Tool-Needs.pdf)
 * For more about code review at Google see [Modern Code Review: A Case Study at Google (PDF)](https://sback.it/publications/icse2018seip.pdf)
 * For a great deal more on all aspects of code review see [Michaela Greiler's site](https://www.michaelagreiler.com/)
-
-</small></small>
