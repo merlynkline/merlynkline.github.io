@@ -24,5 +24,5 @@ You *can't* get the code right first time. Nobody can. Writing code is a difficu
 
 All of these things mean that the code will need maintenance so somebody will have to maintain it. When that happens, the maintainability of the code is critical to success. It is well understood that all code has at least one bug and at least one spurious instruction. The corollary of this is that all code can be reduced to a single instruction which would be wrong. It would be wrong because it would be unmaintainable, even if it was technically correct. Any approach to development which is founded on producing bug-free code is flawed. Producing maintainable code is the first step on the path to success. Any useful definition of "good" code must allow for the indisputable fact there will be errors in it; it will be broken.
 
-Merlyn Kline
+Merlyn Kline  
 November 2016
