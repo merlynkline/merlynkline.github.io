@@ -21,7 +21,7 @@ The program on the tape then, it turned out, was my experiment to see what using
 
 On running the program, I saw this (after I'd clicked around a bit):
 
-![chardef](ABBCMicroInThe21stCentury/screenshot1.png)
+![chardef](ABBCMicroInThe21stCentury/Screenshot1.png)
 
 I should note here that BeebEm, with its "Analogue Mousestick" option for analogue joystick emulation turned on, worked so well that when I moved the mouse over the emulator's window, the pointer drawn by my program tracked the Windows mouse pointer with complete precision so I was immediately able to click on things on the emulator Window and it all just worked. This was so intuitive that it was a short while before I realised it was happening and it occurred to me just how extraordinary it was! This software is 35 years old, running in an emulation of the hardware on a platform so advanced it would have been beyond my wildest dreams when I wrote the original, with a now quotidian input device that was almost mythical at the time, and everything was working exactly as intended!
 
