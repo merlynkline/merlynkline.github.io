@@ -144,17 +144,9 @@ That is the main program flow complete. The remaining code consists of subroutin
 * `SPR` - Prints a string with one of the above effects applied. This works by loading the definition of each character in the string, applying the effect, using the result to redefine character 255 and then writing that to the screen. Note that the subroutine call (`JSR`) at `SPRVEC` is to 0x0000 - this is overwritten with the address of one of the font-effect subroutines by the calling code before `SPR` is called. Also note that the last thing this routine does is jump (`JMP`) into the OS write character routine at 0xFFEE, rather than calling it as a subroutine - a tail-call optimisation! I don't know why this code doesn't use the label `OSWRCH` to call write character routine, given that we've gone to the effort to create that on line 480.
 * `SVT` - Saves the current scratchpad to one of the six scratchpad spaces.
 
-```
-Code goes here
-```
-
-```BBC BASIC
-BBC BASIC code goes here
-```
-
 So, finally, here is the code pretty much as I found it on the cassette. I've removed some comments at the top and bottom which contained control characters that were there to make it difficult to get a listing of the code. Otherwise, this is it:
 
-```BBC BASIC
+```
    30*FX200,0
    40*FX4,1
    50REM ON ERROR RUN
