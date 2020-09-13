@@ -9,15 +9,14 @@ layout: default
 
   {{ content }}
 
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Articles" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        {%- if site.show_excerpts -%}
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><span class="post-meta"> ({{ post.date | date: date_format }})</span>
+          {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
       </li>
