@@ -206,8 +206,9 @@
 
 .post-list {
   list-style: disc;
-
+  
   > li {
+    margin-bottom: 0;
   }
 }
 
