@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "I like Perl"
+date:   2019-09-27
+categories: codecraft Perl
+---
+I like writing software in Perl. This is an increasingly unpopular position to be in. People like to say that Perl is "write only" or "line noise" but it's obvious to me that that says more about the author of the code they are describing than the language it is written in. I can write utterly unmaintainable code in any language and highly maintainable code in many, especially in Perl which has the flexibility to allow me to express intent clearly without being as constrained by the language as I would be by many others.
+
+Perl has a lot of features I wouldn't normally touch because I want others to understand my code easily. Nonetheless I might still find them very useful for one-off one-liners to get some transient job done on the command line, or for rapid prototyping, or whatever. If that produces something worth keeping then I'll refactor it to produce permanent, maintainable, clean code. Whether that ends up being "procedural", "declarative", "object oriented", "functional", "strongly typed", "untyped", or any other paradigm, or combination of them, is a choice I can make based on relevant factors, not a constraint imposed by the language.
+
+The problem I see with many languages is that they try to make it difficult for you to make basic errors in your code, or they try to make it possible for non-programmers to write code. These languages might be good for people who make basic errors in their code or who are non-programmers, but they aren't for me. You shouldn't have to try to write production code with them. Languages like Perl let people who know what they're doing just get on with it with a minimum of fuss, while still providing the tools for everyday hacking that shouldn't make it into production, and they don't constrain you to a particular paradigm that might not be comfortable or appropriate.
+
+Here's an analogy: If I, personally, build a wardrobe and put it in my bedroom, there's a fairly good chance that it will quickly collapse and be unrepairable. But there's a guy next door to me who could spend about the same amount of effort building a wardrobe and produce an heirloom masterpiece that can be economically maintained forever, and he can make a good living from his skills. I don't blame my failure on the wood, nor on my tools - I can even use my neighbours tools if I ask nicely - I'm just not a skilled furniture maker, and I know it. He knows an immeasurable amount more about working with those tools and materials than I do. But the really important thing to me here is that when he wants to knock up something quickly for a single use, or to try out an idea, he can use the exact same tools to do exactly that, and he can still love doing it. That doesn't mean he can't also love producing heirloom masterpieces, or that he would produce a hacked-together prototype for a paying client. It's all about choosing the most flexible tools, properly understanding them, and applying appropriate discipline to each task.
+
+That's how I use Perl; sometimes I hack up quick, single-use code and sometimes I produce heirloom masterpieces that will be running in production long after I'm gone. Saying so might seem a little immodest but "quotation is a serviceable substitute for wit" (as Oscar Wilde) so I will remind you that "the three great virtues of a programmer [are] laziness, impatience, and hubris" (Larry Wall), and defend myself by quoting this unimpeachable source: "modesty is the last refuge of fools and incompetents" (me).
+
+Merlyn Kline  
+September 2019
