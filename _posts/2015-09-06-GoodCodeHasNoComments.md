@@ -1,5 +1,9 @@
-# Good code has no comments
-
+---
+layout: post
+title:  "Good code has no comments"
+date:   2015-09-06
+categories: codecraft
+---
 Early in my career as a software developer I learned that good programmers sprinkle their code liberally with comments. Having comments everywhere was considered by everyone to be a necessary (and sometimes, I suspect, sufficient) feature of "good" code. This view remains so widely and strongly held that suggesting otherwise is usually met with bafflement. Evidence of this deeply entrenched habit is visible in the vast majority of the code that I see. For example looking in a commercial Perl codebase I have access to right now I find that in 212 `.pm` files up to 65% of non-blank lines in any one file are solely comments, with around half the files having between 10% and 30% of non-blank lines devoted to them. There are many additional comments on lines that also contain code. Obviously this codebase must be a model of clarity if not concision.
 
 These comments in the code are (hopefully) intended to help the hapless reader to understand it properly so that she may more easily add new features, remove bugs and generally improve things. What could be wrong with that? Nothing could be wrong with that. If only it worked that way. The reality is that this is very often not the case - comments are wrong or misleading for a variety of reasons and every time this happens it costs time and effort.
