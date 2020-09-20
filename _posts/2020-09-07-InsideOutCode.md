@@ -17,7 +17,7 @@ proc crud_controller(params) {
         log_success(params, record);
         display_result(params, record);
     }
-     catch(error) {
+    catch(error) {
         system.log("ERROR in '" + params.action + "' : " + error);
         display_error(params, error);
     }
@@ -137,7 +137,7 @@ proc crud_controller(params) {
             case 'delete': delete_record(params);
         }
     }
-     catch(error) {
+    catch(error) {
         system.log("ERROR in '" + params.action + "': " + error);
         display_error(params, error);
     }
