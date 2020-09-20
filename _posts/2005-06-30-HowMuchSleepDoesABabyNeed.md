@@ -40,6 +40,10 @@ After looking around a bit we came across a book called
 		border: none;
 	}
 
+	table.t-table tr {
+		background-color: none;
+	}
+
     .t-table .t-heading td {
         border-top: solid 1px #aaa;
         vertical-align: bottom;
