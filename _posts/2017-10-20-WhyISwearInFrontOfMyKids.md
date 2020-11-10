@@ -4,7 +4,7 @@ title:  "Why I swear in front of my kids"
 date:   2017-10-20
 categories: misc
 ---
-*(While setting up this site in September 2020 I went looking for articles to add to it from my scattered archives. This is one that I came across that I wrote after I did a training course at work where I was required to give a presentation to the group on a subject other than my work. This was the subject pf my presentation and several people asked me if they could have a copy of the material so I wrote this article based on it.)*
+*(While setting up this site in September 2020 I went looking for articles to add to it from my scattered archives. This is one that I came across that I wrote after I did a training course at work where I was required to give a presentation to the group on a subject other than my work. This was the subject of my presentation and several people asked me if they could have a copy of the material so I wrote this article based on it.)*
 
 I am the sad sort of person that is really only interested in one thing and I am lucky enough to do that for a living, so coming up with a presentation outside the scope of work was quite difficult. However, while I was discussing this assignment with my wife in the pub at the weekend a stranger said something to me which gave me a great subject: they asked me not to swear in front of their kids. It wasn't the first time I'd heard the idea that you shouldn't swear in front of children and it's something I've given a bit of thought to over the years, especially since having kids of my own. I'll leave it to you to imagine how the discussion was going at the time this kind stranger gave me the idea for my presentation.
 
