@@ -280,7 +280,7 @@ table {
     background-color: $print-background-color;
   }  
 
-  a, a:visited {
+  a, a:visited, a:hover, a.post-link:hover {
     color: $print-text-color;
     box-shadow: none;
   }
