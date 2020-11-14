@@ -26,6 +26,12 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+$print-text-color:       black !default;
+$print-background-color: white !default;
+$print-grey-color:       lighten($print-text-color, 40%) !default;
+$print-grey-color-light: lighten($print-grey-color, 20%) !default;
+$print-grey-color-dark:  darken($print-grey-color, 25%) !default;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {

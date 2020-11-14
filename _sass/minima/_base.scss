@@ -147,6 +147,8 @@ blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
+  margin-left: $spacing-unit;
+  margin-right: $spacing-unit * 4;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
@@ -270,4 +272,59 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+@media print {
+  body {
+    color: $print-text-color;
+    background-color: $print-background-color;
+  }  
+
+  a, a:visited {
+    color: $print-text-color;
+    box-shadow: none;
+  }
+
+  .site-title {
+    color: $print-text-color !important;
+  }
+
+  blockquote {
+    color: $print-grey-color;
+    border-left: 4px solid $print-grey-color-light;
+  }
+
+  pre,
+  code {
+    @include relative-font-size(0.75);
+    border: none;
+    background-color:  darken($print-background-color, 4%);;
+    white-space: pre-wrap;
+  }
+
+  table {
+    color: lighten($print-text-color, 18%);
+    border: 1px solid $print-grey-color-light;
+    tr {
+      &:nth-child(even) {
+        background-color: darken($print-background-color, 2%);
+      }
+    }
+    th {
+      background-color: darken($print-background-color, 6%);
+      border: 1px solid darken($print-grey-color-light, 4%);
+    }
+    td {
+      border: 1px solid $print-grey-color-light;
+    }
+  }    
+
+  .site-nav {
+    display: none;
+  }
+
+  .social-media-list {
+    display: none;
+  }
+
 }

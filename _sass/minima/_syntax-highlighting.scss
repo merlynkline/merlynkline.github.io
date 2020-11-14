@@ -67,3 +67,69 @@
   .vi    { color: #EEFFFF } // Name.Variable.Instance
   .il    { color: #F78C6C } // Literal.Number.Integer.Long
 }
+
+@media print {
+  .highlight
+  , .highlight .k
+  , .highlight .c     
+  , .highlight .err   
+  , .highlight .k     
+  , .highlight .o     
+  , .highlight .cm    
+  , .highlight .cp    
+  , .highlight .c1    
+  , .highlight .cs    
+  , .highlight .gd    
+  , .highlight .gd .x 
+  , .highlight .ge    
+  , .highlight .gr    
+  , .highlight .gh    
+  , .highlight .gi    
+  , .highlight .gi .x 
+  , .highlight .go    
+  , .highlight .gp    
+  , .highlight .gs    
+  , .highlight .gu    
+  , .highlight .gt    
+  , .highlight .kc    
+  , .highlight .kd    
+  , .highlight .kp    
+  , .highlight .kr    
+  , .highlight .kt    
+  , .highlight .m     
+  , .highlight .s     
+  , .highlight .na    
+  , .highlight .nb    
+  , .highlight .nc    
+  , .highlight .no    
+  , .highlight .ni    
+  , .highlight .ne    
+  , .highlight .nf    
+  , .highlight .nn    
+  , .highlight .nt    
+  , .highlight .nv    
+  , .highlight .ow    
+  , .highlight .w     
+  , .highlight .mf    
+  , .highlight .mh    
+  , .highlight .mi    
+  , .highlight .mo    
+  , .highlight .sb    
+  , .highlight .sc    
+  , .highlight .sd    
+  , .highlight .s2    
+  , .highlight .se    
+  , .highlight .sh    
+  , .highlight .si    
+  , .highlight .sx    
+  , .highlight .sr    
+  , .highlight .s1    
+  , .highlight .ss    
+  , .highlight .bp    
+  , .highlight .vc    
+  , .highlight .vg    
+  , .highlight .vi    
+  , .highlight .il {
+      color: $print-text-color;
+  }
+}
