@@ -149,7 +149,6 @@ blockquote {
   padding-left: $spacing-unit / 2;
   margin-left: $spacing-unit;
   margin-right: $spacing-unit * 4;
-  @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
 
@@ -276,10 +275,18 @@ table {
 
 @media print {
   body {
+    font-family: "Times new roman", serif;
     color: $print-text-color;
     background-color: $print-background-color;
-  }  
+    line-height: 1.25;
+    widows: 3;
+    orphans: 3;
+  }
 
+  h1, h2, h3, h4, h5, h6, .site-title {
+    font-family: "Segoe UI", sans-serif;
+  }
+  
   a, a:visited, a:hover, a.post-link:hover {
     color: $print-text-color;
     box-shadow: none;
@@ -296,12 +303,15 @@ table {
 
   pre,
   code {
-    @include relative-font-size(0.75);
     border: none;
     background-color:  darken($print-background-color, 4%);;
     white-space: pre-wrap;
   }
-
+  
+  pre code {
+    @include relative-font-size(0.75);
+  }
+  
   table {
     color: lighten($print-text-color, 18%);
     border: 1px solid $print-grey-color-light;
