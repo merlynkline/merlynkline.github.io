@@ -6,7 +6,7 @@ categories: codecraft,A-level CS
 ---
 (For context see [A-level Computer Science]({% post_url 2021-10-01-ALevelComputerScience %}))
 
-This assignment was to write a basic income tax calculator using the simplest rules for personal allowance and tax rates at different income bands. The necessary information is advertised on the [UK Governments HMRC site](https://www.gov.uk/income-tax-rates) and an [online tax calculator](https://listentotaxman.com/) was suggested for checking the results.
+This assignment was to write a basic income tax calculator using the simplest rules for personal allowance and tax rates at different income bands. The necessary information is advertised on the [UK Government's HMRC site](https://www.gov.uk/income-tax-rates) and an [online tax calculator](https://listentotaxman.com/) was suggested for checking the results.
 
 My son completed this at school with no input from me and came up with the following:
 
