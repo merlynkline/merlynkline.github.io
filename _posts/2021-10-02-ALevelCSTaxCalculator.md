@@ -68,8 +68,8 @@ while True:
 
 We talked through this code and made several observations, including:
 
-* The names of many things could be better. This lead to a discussion of the fact that the two hard problems in computing are naming things, cache invalidation and off-by-one errors. This in turn lead to an interesting but irrelevant derail concerning what exactly is meant by cache invalidation.
-* There is some input validation, which is good to see at this early stage. This might be improved by moving some more of the logic into the `TestInt` function.
+* The names of many things could be better. This lead to a discussion of the fact that the two hard problems in computing are naming things, cache invalidation and off-by-one errors. This in turn lead to an interesting but irrelevant derail concerning what exactly is meant by cache invalidation. We also talked about [maintainability being more important than 'correct' functioning]({% post_url 2016-11-21-GoodCodeIsBroken %}).
+* There is some input validation, which is good to see at this early stage. We talked about why this is so important, in terms of both UX and security, with an entertaining diversion to [Little Bobby Tables](https://xkcd.com/327/). The validation code might be improved by moving some more of the logic into the `TestInt` function.
 * The personal allowance calculator could be simplified by simply dividing the amount above £100,000 by 2 and rounding, rather than the special cases for odd and even numbers we see here.
 * The tax calculation is very much hard-coded and would be difficult to maintain if the tax bands changed, and even more difficult if the number of bands increased.
 * There's a lot of casting to `int` which could be better encapsulated.
