@@ -16,7 +16,8 @@ Assignments:
 * Lobster Pots game
 * Factors Calculator
 * Mean Calculator
-* Set Inclusion Checker
+* [Set Inclusion Checker]({% post_url 2021-10-03-ALevelCSSetChecker %})
+* [Write numbers in English]({% post_url 2021-10-03-ALevelCSWriteNumber %})
 
 Merlyn Kline  
 October 2021
