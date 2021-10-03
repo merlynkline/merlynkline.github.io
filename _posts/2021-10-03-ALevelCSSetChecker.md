@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A-level CS Set Inclusion Checker"
+title:  "A-level CS: Set Inclusion Checker"
 date:   2021-10-03
 categories: codecraft,A-level CS
 ---

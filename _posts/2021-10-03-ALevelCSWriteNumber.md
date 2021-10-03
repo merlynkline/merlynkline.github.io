@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A-level CS Write numbers in English"
+title:  "A-level CS: Write numbers in English"
 date:   2021-10-03
 categories: codecraft,A-level CS
 ---

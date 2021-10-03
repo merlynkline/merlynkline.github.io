@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A-level CS Tax Calculator"
+title:  "A-level CS: Tax Calculator"
 date:   2021-10-02
 categories: codecraft,A-level CS
 ---
