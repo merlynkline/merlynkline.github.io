@@ -171,6 +171,14 @@ code {
   max-height: 640px;
 }
 
+code.mermaid svg {
+  background-color: #ddd;
+}
+
+pre code.mermaid, code.mermaid {
+  display: inline-block;
+}
+
 code {
   padding: 1px 5px;
 }
